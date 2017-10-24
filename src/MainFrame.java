@@ -177,8 +177,8 @@ public class MainFrame extends JFrame{
     }
     private void lotoGenerate(){
         int i=0;
-        boolean flag = true;
         while (i<6){
+            boolean flag = true;
             data[i]=rnd.nextInt(42)+1;
             int j=0;
             while(j<i && flag){
