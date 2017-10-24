@@ -139,7 +139,7 @@ public class MainFrame extends JFrame{
         for(int j=0; j<10; j++)
             arr[j] = j;
 
-        for (int j = 0; j < 10; j++) {                          //參考網路做法(洗牌法)
+        for (int j = 0; j < 10; j++) {
             ran = random.nextInt(10);
             int tmp = arr[ran];
             arr[ran] = arr[j];
